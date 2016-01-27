@@ -22,11 +22,11 @@ public class WelcomeService {
             String msg = null;
             
             if (time.getHour() > 0 && time.getHour() < 12){
-                msg = "Welcome " + name + " and Good Morning";
+                msg = "Welcome " + name + ", and Good Morning";
         } else if (time.getHour() >= 12 && time.getHour() < 18){
-                msg = "Welcome " + name + " and Good Afternoon";
+                msg = "Welcome " + name + ", and Good Afternoon";
         }else {
-            msg = "Welcome " + name + " and Good Evening";
+            msg = "Welcome " + name + ", and Good Evening";
         }
             return msg;
         }  

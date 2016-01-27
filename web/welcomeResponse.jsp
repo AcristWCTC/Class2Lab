@@ -12,7 +12,7 @@
         <title>JSP Response Page</title>
     </head>
     <body>
-        <h1>Server Response</h1>
+        <h1>Welcome</h1>
         <p>
             <%
                 Object responseObj = request.getAttribute("myMsg");
