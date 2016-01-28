@@ -15,6 +15,11 @@
         <h1>Servlet PageGenerator at /Class2Lab</h1>
         <table>
             <tr>
+                <th>Heading</th>
+                <th>Heading</th>
+                <th>Heading</th>
+            </tr>
+            <tr>
                 <td>hi</td>
                 <td>hi</td>
                 <td>hi</td>

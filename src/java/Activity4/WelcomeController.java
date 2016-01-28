@@ -21,6 +21,8 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(name = "WelcomeController", urlPatterns = {"/WelcomeController"})
 public class WelcomeController extends HttpServlet {
+    
+    private static final String DEST_PAGE = "/welcomeResponse.jsp";
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -44,7 +46,7 @@ public class WelcomeController extends HttpServlet {
             request.setAttribute("myMsg", responseMsg);
             
                     RequestDispatcher view
-                = request.getRequestDispatcher("/welcomeResponse.jsp");
+                = request.getRequestDispatcher(DEST_PAGE);
         view.forward(request, response);
 
         } catch (Exception e) {
